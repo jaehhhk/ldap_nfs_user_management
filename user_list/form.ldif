@@ -1,3 +1,4 @@
+# 수정 금지 -> 사용자 기본 포맷
 dn: uid=user_name,ou=People,dc=biglab
 objectClass: top
 objectClass: account
