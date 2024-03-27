@@ -1,0 +1,15 @@
+# 수정 금지 -> 사용자 기본 포맷
+dn: uid=lee,ou=People,dc=biglab
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: lee
+uid: lee
+uidNumber: 65535
+gidNumber: 1500
+userPassword: {CRYPT}x
+gecos: lee
+loginShell: /bin/bash
+homeDirectory: /home/lee
+

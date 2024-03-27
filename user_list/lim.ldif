@@ -1,0 +1,15 @@
+# 수정 금지 -> 사용자 기본 포맷
+dn: uid=lim,ou=People,dc=biglab
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: lim
+uid: lim
+uidNumber: 65538
+gidNumber: 1500
+userPassword: {CRYPT}x
+gecos: lim
+loginShell: /bin/bash
+homeDirectory: /home/lim
+
