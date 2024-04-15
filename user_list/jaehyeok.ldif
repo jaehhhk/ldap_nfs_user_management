@@ -1,15 +1,15 @@
 # 수정 금지 -> 사용자 기본 포맷
-dn: uid=jung,ou=People,dc=biglab
+dn: uid=jaehyeok,ou=People,dc=biglab
 objectClass: top
 objectClass: account
 objectClass: posixAccount
 objectClass: shadowAccount
-cn: jung
-uid: jung
-uidNumber: 65537
+cn: jaehyeok
+uid: jaehyeok
+uidNumber: 65543
 gidNumber: 1500
 userPassword: {CRYPT}x
-gecos: jung
+gecos: jaehyeok
 loginShell: /bin/bash
-homeDirectory: /home/jung
+homeDirectory: /home/jaehyeok
 

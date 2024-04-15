@@ -25,6 +25,7 @@ add_user_client(){
 			sleep 3
 			useradd $name -u $new_uid -g 1500 -m -s /bin/bash
 			chmod 755 /home/$name
+			edquota -p init $name # 용량 제한(미리 설정해 둔 init 계정 기준)
 			echo "생성 완료"
 
 			# Configures export's option
@@ -53,6 +54,7 @@ add_user_client(){
 EOF
 			
 			echo "모든 설정이 완료되었습니다."
+			echo "최대 사용 가능 용량은 50G입니다."
 
 
 			break
